@@ -1,0 +1,35 @@
+div {
+    display: block;
+}
+
+.top_wrap {
+    position: absolute;
+    top: 100px;
+    left: 150px;
+    width: 1300px;
+}
+
+.item_imagewrap{
+    float:left;
+    width:600px;
+    margin-right: 50px;
+}
+.item_imagewrap img{
+    min-height: 400px;
+    min-width: 400px;
+    max-height: 600px;
+    max-width: 600px;
+    vertical-align: middle
+}
+
+.item_info {
+    padding-top: 30px;
+    position: relative;
+    float:left;
+}
+
+.item_title {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 28px;
+    color: #222222;
+}
